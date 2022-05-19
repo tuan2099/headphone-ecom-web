@@ -1,0 +1,30 @@
+{
+  "name": "react-ecomnomic-headphone-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.29.0",
+    "axios": "^0.27.2",
+    "canvas-confetti": "^1.5.1",
+    "dotenv": "^16.0.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.3.1",
+    "stripe": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
